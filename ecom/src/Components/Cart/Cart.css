@@ -1,0 +1,41 @@
+.cartleft-section{
+    width:45vw;
+    margin:10px;
+}
+.cart-cards{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 10px;
+    width: max-content;
+}
+.cart-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.cartright-section{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:10px;
+    padding: 10px;
+    height: 100px;
+    position: sticky;
+    top:80px;
+}
+.billing-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    
+}
+.cart-header{
+    position: sticky;
+    top:0px;
+}
+@media (max-width:768px){
+    .cart-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

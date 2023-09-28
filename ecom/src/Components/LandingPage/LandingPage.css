@@ -1,0 +1,47 @@
+.landing-container{
+    width: 90vw;
+    margin: auto auto;
+    display: flex;
+    gap:20px;   
+    
+}
+.filters{
+    width: max-content;
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 20px;
+}
+.searchbar{
+    margin-bottom: 20px;
+}
+.right-container{
+    width: 80vw; 
+}
+.filterbar{
+    position: sticky;
+    top:150px;
+}
+.modalfilter{
+    display: none;
+}
+
+@media (max-width:768px){
+    .filterbar{
+        display: none;
+    }
+    .modalfilter{
+        display: block;
+        cursor: pointer;
+        position: sticky;
+        top:124px;
+        z-index: 1;
+        background-color: white;
+        width: 90vw;
+    }
+    .landing-container{
+        width: 90vw;
+        display: flex;
+        flex-direction: column; 
+    }
+}
+

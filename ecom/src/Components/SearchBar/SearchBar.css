@@ -1,0 +1,8 @@
+.searchbar{
+    position: sticky;
+    top:68px;
+    z-index: 1;
+    background-color: white;
+    margin: 10px;
+    width: 70vw;
+}
